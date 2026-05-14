@@ -1,0 +1,1307 @@
+[Licensing::Module] Trying to connect to existing licensing client channel...
+Built from '6000.4/staging' branch; Version is '6000.4.0f1 (8cf496087c8f) revision 9237654'; Using compiler version '194234433'; Build Type 'Release'
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-nicho" at "2026-05-14T14:08:10.2287288Z"
+OS: 'Windows 11  (10.0.26200) Professional' Language: 'en' Physical Memory: 32694 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
+System  architecture: x64
+Process architecture: x64
+Date: 2026-05-14T14:08:10Z
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\6000.4.0f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/nicho/Formative_1
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+60549
+-licensingIpc
+LicenseClient-nicho
+-force-d3d12
+-job-worker-count
+7
+-background-job-worker-count
+8
+-gc-helper-count
+1
+-name
+AssetImport
+Successfully changed project path to: C:/Users/nicho/Formative_1
+C:/Users/nicho/Formative_1
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gfx=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+Player connection [5736]  Target information:
+
+Player connection [5736]  * "[IP] 192.168.0.13 [Port] 0 [Flags] 2 [Guid] 2701348761 [EditorId] 2701348761 [Version] 1048832 [Id] WindowsEditor(7,Nicholas) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [5736]  * "[IP] 172.23.0.1 [Port] 0 [Flags] 2 [Guid] 2701348761 [EditorId] 2701348761 [Version] 1048832 [Id] WindowsEditor(7,Nicholas) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [5736]  * "[IP] 26.42.229.79 [Port] 0 [Flags] 2 [Guid] 2701348761 [EditorId] 2701348761 [Version] 1048832 [Id] WindowsEditor(7,Nicholas) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [5736] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [5736] Host joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 7
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+Library Redirect Path: Library/
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Refreshing native plugins compatible for Editor in 40.91 ms, found 3 plugins.
+Initialize engine version: 6000.4.0f1 (8cf496087c8f)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.4.0f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/nicho/Formative_1/Assets
+Forcing GfxDevice: Direct3D 12
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+d3d12: failed to query info queue interface (0x80004002).
+Direct3D:
+    Version:         Direct3D 12 [level 12.2]
+    Renderer:        NVIDIA GeForce RTX 4060 (ID=0x2882)
+    Vendor:          NVIDIA
+    VRAM:            7957 MB
+    App VRAM Budget: 7189 MB
+    Driver:          32.0.15.8097
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.4.0f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.4.0f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.4.0f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56928
+CodeReloadManager initialized
+[Licensing::Client] Handshaking with LicensingClient:
+  Version:                 1.18.1+9fbee8e
+  Session Id:              12e69ca2f2924e86834eac12c230b7e9
+  Correlation Id:          24d301c60bcd9a52cc819f6962c1584c
+  External correlation Id: 7290219938209234369
+  Machine Id:              8wJQksq0DBmRPNJ5MMxPPwJrSZ0=
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-nicho" (connect: 0.00s, validation: 0.00s, handshake: 2.79s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-nicho-notifications" at "2026-05-14T14:08:13.0235409Z"
+[Licensing::Module] Licensing Background thread has ended after 2.80s
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.4.0f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.4.0f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.325551 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Package Manager log level set to [2]
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.550 seconds
+Domain Reload Profiling: 3452ms
+	BeginReloadAssembly (377ms)
+	RebuildCommonClasses (470ms)
+	RebuildNativeTypeToScriptingClass (19ms)
+	initialDomainReloadingComplete (429ms)
+	LoadAllAssembliesAndSetupDomain (1605ms)
+		LoadAssemblies (369ms)
+		AnalyzeDomain (1592ms)
+			TypeCache.Refresh (1591ms)
+				TypeCache.ScanAssembly (1284ms)
+	FinalizeReload (552ms)
+		SetupLoadedEditorAssemblies (0ms)
+			InitializePlatformSupportModulesInManaged (63ms)
+			BeforeProcessingInitializeOnLoad (129ms)
+			ProcessInitializeOnLoadAttributes (157ms)
+			ProcessInitializeOnLoadMethodAttributes (112ms)
+========================================================================
+Worker process is ready to serve import requests
+Import Worker Mode flag is 0x00
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: 11270607086005-UnityPersXXXX
+  Product: Unity Personal
+  Type: Assigned
+  Expiration: Unlimited
+Assembly Assembly-CSharp-Editor-firstpass.dll at Library/ScriptAssemblies/Assembly-CSharp-Editor-firstpass.dll not valid. Loading of assembly skipped.
+Assembly Assembly-CSharp-firstpass.dll at Library/ScriptAssemblies/Assembly-CSharp-firstpass.dll not valid. Loading of assembly skipped.
+Assembly DocCodeExamples.dll at Library/ScriptAssemblies/DocCodeExamples.dll not valid. Loading of assembly skipped.
+Assembly TestNewCustomAssembly.dll at Library/ScriptAssemblies/TestNewCustomAssembly.dll not valid. Loading of assembly skipped.
+Assembly Unity.Collections.BurstCompatibilityGen.dll at Library/ScriptAssemblies/Unity.Collections.BurstCompatibilityGen.dll not valid. Loading of assembly skipped.
+Assembly Unity.Collections.DocCodeSamples.dll at Library/ScriptAssemblies/Unity.Collections.DocCodeSamples.dll not valid. Loading of assembly skipped.
+Assembly Unity.Collections.PerformanceTests.dll at Library/ScriptAssemblies/Unity.Collections.PerformanceTests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Collections.Tests.dll at Library/ScriptAssemblies/Unity.Collections.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Collections.Tests.Playmode.dll at Library/ScriptAssemblies/Unity.Collections.Tests.Playmode.dll not valid. Loading of assembly skipped.
+Assembly Unity.InputSystem.IntegrationTests.dll at Library/ScriptAssemblies/Unity.InputSystem.IntegrationTests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Mathematics.Tests.dll at Library/ScriptAssemblies/Unity.Mathematics.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Multiplayer.Center.Editor.Tests.dll at Library/ScriptAssemblies/Unity.Multiplayer.Center.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Multiplayer.Center.Tests.dll at Library/ScriptAssemblies/Unity.Multiplayer.Center.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Nuget.Mono-Cecil.dll at Library/ScriptAssemblies/Unity.Nuget.Mono-Cecil.dll not valid. Loading of assembly skipped.
+Assembly Unity.PathTracing.Editor.Tests.dll at Library/ScriptAssemblies/Unity.PathTracing.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.PathTracing.Runtime.Tests.dll at Library/ScriptAssemblies/Unity.PathTracing.Runtime.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Postprocessing.Editor.Tests.dll at Library/ScriptAssemblies/Unity.Postprocessing.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Postprocessing.Runtime.Tests.dll at Library/ScriptAssemblies/Unity.Postprocessing.Runtime.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.RenderPipelines.Core.Editor.Tests.dll at Library/ScriptAssemblies/Unity.RenderPipelines.Core.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.RenderPipelines.Core.Runtime.Tests.dll at Library/ScriptAssemblies/Unity.RenderPipelines.Core.Runtime.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.RenderPipelines.Universal.Config.Editor.Tests.dll at Library/ScriptAssemblies/Unity.RenderPipelines.Universal.Config.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.RenderPipelines.Universal.Editor.Tests.dll at Library/ScriptAssemblies/Unity.RenderPipelines.Universal.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.RenderPipelines.Universal.Runtime.Tests.dll at Library/ScriptAssemblies/Unity.RenderPipelines.Universal.Runtime.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Searcher.EditorTests.dll at Library/ScriptAssemblies/Unity.Searcher.EditorTests.dll not valid. Loading of assembly skipped.
+Assembly Unity.ShaderGraph.Editor.Tests.dll at Library/ScriptAssemblies/Unity.ShaderGraph.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.TextMeshPro.Editor.Tests.dll at Library/ScriptAssemblies/Unity.TextMeshPro.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.TextMeshPro.Tests.dll at Library/ScriptAssemblies/Unity.TextMeshPro.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.UnifiedRayTracing.Editor.Tests.dll at Library/ScriptAssemblies/Unity.UnifiedRayTracing.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly UnityEditor.UI.Common.Tests.dll at Library/ScriptAssemblies/UnityEditor.UI.Common.Tests.dll not valid. Loading of assembly skipped.
+Assembly UnityEditor.UI.EditorTests.dll at Library/ScriptAssemblies/UnityEditor.UI.EditorTests.dll not valid. Loading of assembly skipped.
+Assembly UnityEngine.UI.Tests.dll at Library/ScriptAssemblies/UnityEngine.UI.Tests.dll not valid. Loading of assembly skipped.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.518 seconds
+Domain Reload Profiling: 10282ms
+	BeginReloadAssembly (243ms)
+		DisableScriptedObjects (7ms)
+		CreateAndSetChildDomain (36ms)
+	RebuildCommonClasses (54ms)
+	RebuildNativeTypeToScriptingClass (19ms)
+	initialDomainReloadingComplete (6121ms)
+	LoadAllAssembliesAndSetupDomain (2326ms)
+		LoadAssemblies (1878ms)
+		AnalyzeDomain (583ms)
+			TypeCache.Refresh (487ms)
+				TypeCache.ScanAssembly (469ms)
+			BuildScriptInfoCaches (80ms)
+			ResolveRequiredComponents (14ms)
+	FinalizeReload (1518ms)
+		SetupLoadedEditorAssemblies (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			BeforeProcessingInitializeOnLoad (213ms)
+			ProcessInitializeOnLoadAttributes (404ms)
+			ProcessInitializeOnLoadMethodAttributes (89ms)
+			AfterProcessingInitializeOnLoad (17ms)
+		AwakeInstancesAfterBackupRestoration (16ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 2.66 ms, found 3 plugins.
+Unloading 36 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6400 unused Assets / (8.0 MB). Loaded Objects now: 7247.
+Memory consumption went from 160.6 MB to 152.6 MB.
+Total: 13.918800 ms (FindLiveObjects: 1.248000 ms CreateObjectMapping: 0.723600 ms MarkObjects: 8.047500 ms  DeleteObjects: 3.897200 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 1684.440778 seconds.
+  path: Assets/Palmov Island/Low Poly Atmospheric Locations Pack/Prefabs/Stones/Stones small gray blue/stone small gray blue 7.prefab
+  importAddress: Guid(cbed2abf2706c324fafa549bf41c15cf) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Palmov Island/Low Poly Atmospheric Locations Pack/Prefabs/Stones/Stones small gray blue/stone small gray blue 7.prefab using Guid(cbed2abf2706c324fafa549bf41c15cf) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'e08d7f05a1569c79e40c7527cb217f88') in 0.1437598 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=f2b0ce5a2d03f8808a938ad2df6e49dc DependenciesID=64f0de5bd2b4b3fa2fdefd06e56151e3 StaticDependenciesID=1cbf22fde4b2563cda5e6edb4d6845c0 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Palmov Island/Low Poly Atmospheric Locations Pack/Prefabs/Stones/Stones large/stone large 2.prefab
+  importAddress: Guid(113edd08c2857434fac26fb3b519b32c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Palmov Island/Low Poly Atmospheric Locations Pack/Prefabs/Stones/Stones large/stone large 2.prefab using Guid(113edd08c2857434fac26fb3b519b32c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'e13a3dde5f8e757b5e536a9873ffb211') in 0.0151209 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=d0489c8893ed3affa9fb94ed05b8c339 DependenciesID=987b6ddf03c2d02d0decc1210f8e70a2 StaticDependenciesID=17746e89c8d51d105f6c968388d34a01 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Palmov Island/Low Poly Atmospheric Locations Pack/Prefabs/Plants/shrub.prefab
+  importAddress: Guid(d89cffeade6d8ee499a0b16e9286d46e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Palmov Island/Low Poly Atmospheric Locations Pack/Prefabs/Plants/shrub.prefab using Guid(d89cffeade6d8ee499a0b16e9286d46e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '9175e190b66ed7ef0377a259d30f399b') in 0.0147815 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=0665e693885cb2075434bbf2b44a8f6a DependenciesID=c1938d71401e249dcbc2e0a6bb3356fb StaticDependenciesID=4b60a8bcbf491df03a42db3270483960 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Palmov Island/Low Poly Atmospheric Locations Pack/Prefabs/Mountains/skull mountain.prefab
+  importAddress: Guid(b8c5edca6b9707249bdee190239a0d1e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Palmov Island/Low Poly Atmospheric Locations Pack/Prefabs/Mountains/skull mountain.prefab using Guid(b8c5edca6b9707249bdee190239a0d1e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '16215880ec7ceeb00601cc490ab76e3a') in 0.0155612 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=bb3ebed60ccbdbd00f1741c359305b17 DependenciesID=17456dba54a811805e91c73beff911b9 StaticDependenciesID=772a558e730a5367615ea046c57ab850 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Palmov Island/Low Poly Atmospheric Locations Pack/Models/Stones/Stones small/stone small 10.fbx
+  importAddress: Guid(36da15b0fe7e3c145bc4a445e5ae2460) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Palmov Island/Low Poly Atmospheric Locations Pack/Models/Stones/Stones small/stone small 10.fbx using Guid(36da15b0fe7e3c145bc4a445e5ae2460) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '9a53eb1aa8dd9eaaaaccc1f3bd1e7981') in 0.0383522 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=5d00dc1269b22ebcc89ebf3bcdd3242c DependenciesID=c92345ce1502c5d2fee07381cb02af00 StaticDependenciesID=422ab760e5651d011a7e12bc839b42c0 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Palmov Island/Low Poly Atmospheric Locations Pack/Scenes/Location wild west railway station.unity
+  importAddress: Guid(a0643ebbed5ccf8409353aa89a4a67dc) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Palmov Island/Low Poly Atmospheric Locations Pack/Scenes/Location wild west railway station.unity using Guid(a0643ebbed5ccf8409353aa89a4a67dc) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'ebb7398c871716e6314345fe644d33d8') in 0.0106858 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=7bcbed3bd9a664c933a1827644b2621a DependenciesID=349774c51460e88c8ff3179572699c02 StaticDependenciesID=a04a35ba108ac4361ba9984cdb0769cd 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Palmov Island/Low Poly Atmospheric Locations Pack/Prefabs/Trees/Autumn fir trees/autumn pine tree small.prefab
+  importAddress: Guid(4cdfda03591c7fd41b8034b603300ba4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Palmov Island/Low Poly Atmospheric Locations Pack/Prefabs/Trees/Autumn fir trees/autumn pine tree small.prefab using Guid(4cdfda03591c7fd41b8034b603300ba4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'aab540d87edd45a0e560ec0e9335f824') in 0.015698 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=9e9ac52098e7eb9052975cfa6dea3a02 DependenciesID=e52cd14893c219e2e682752c447dd223 StaticDependenciesID=9f5a35941e8b73746c6d80431e1d723a 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Palmov Island/Low Poly Atmospheric Locations Pack/Models/Environment/Sports environment/mesh fence.fbx
+  importAddress: Guid(14472bfcc11a8d4468583cd8029a8e0a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Palmov Island/Low Poly Atmospheric Locations Pack/Models/Environment/Sports environment/mesh fence.fbx using Guid(14472bfcc11a8d4468583cd8029a8e0a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '9be4ea8566767845e9547349cbbe5c6b') in 0.0196975 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=1175956c156ccd256f3a5982f3708e9d DependenciesID=5ba49ae073b0dbe1ab981b8ea77c124a StaticDependenciesID=d41df096c375adcc07aa1e698e40d2e5 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Palmov Island/Low Poly Atmospheric Locations Pack/Models/Environment/sphinx.fbx
+  importAddress: Guid(ae1959ee55741754e9daf7cdc03e84cf) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Palmov Island/Low Poly Atmospheric Locations Pack/Models/Environment/sphinx.fbx using Guid(ae1959ee55741754e9daf7cdc03e84cf) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'cc45e231dc19fd2e637331b471b6065f') in 0.0165385 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=f99af064de23d026a8d6d1c486638b68 DependenciesID=1203dd937fabc07e2fd8902cb989965c StaticDependenciesID=45652c5d1a2bc157f7cf363d462ee0ff 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Palmov Island/Low Poly Atmospheric Locations Pack/Scenes/Stones.unity
+  importAddress: Guid(11f96be395cf1aa41bfe0687a95d5f50) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Palmov Island/Low Poly Atmospheric Locations Pack/Scenes/Stones.unity using Guid(11f96be395cf1aa41bfe0687a95d5f50) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'f5ee083d5e5d854bbeda7900c43e90a9') in 0.0164766 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=10adbbd29b72f286545913dc7001c0f4 DependenciesID=946783da62fb60cc1f5b035f43589a2a StaticDependenciesID=fdbe6ffdf09df73bb084937016b589b0 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Palmov Island/Low Poly Atmospheric Locations Pack/Prefabs/Stones/Stones small gray blue/stone small gray blue.prefab
+  importAddress: Guid(3cb4618a862c1d34bb1e35fa7736fdef) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Palmov Island/Low Poly Atmospheric Locations Pack/Prefabs/Stones/Stones small gray blue/stone small gray blue.prefab using Guid(3cb4618a862c1d34bb1e35fa7736fdef) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'a3e86959bd93a200c71f75e77d0637f5') in 0.0146623 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=1c3231445e9f2190ffec0d0dc5d1d5cf DependenciesID=b956cd3b792558fcb7d3601c7235ab66 StaticDependenciesID=9a1e78cb427768644c9646a11bad1a8c 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Palmov Island/Low Poly Atmospheric Locations Pack/Prefabs/Environment/Camping environment
+  importAddress: Guid(81ace86ef8f1b12488a75bde43845e9c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Palmov Island/Low Poly Atmospheric Locations Pack/Prefabs/Environment/Camping environment using Guid(81ace86ef8f1b12488a75bde43845e9c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '7932aeb1ceb033217b922b1467415a18') in 0.010771 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=d08a86076a8bf33a40220bf5b97643b8 DependenciesID=ba4711c9738d11a7a9db42faf3c8bec4 StaticDependenciesID=e1a2c606175e8d03653013b4ce5bfc8a 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Palmov Island/Low Poly Atmospheric Locations Pack/Models/Plants/Autumn shrubs/autumn shrub.fbx
+  importAddress: Guid(d76e4980383178b4888fafce9c7e0574) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Palmov Island/Low Poly Atmospheric Locations Pack/Models/Plants/Autumn shrubs/autumn shrub.fbx using Guid(d76e4980383178b4888fafce9c7e0574) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '4502eb379bf41ecf522f55901282cc2f') in 0.0164997 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=889b25406eab33d97c1dea1af6204227 DependenciesID=a2f43340a42b4a580af43a337470f2d1 StaticDependenciesID=480e61c15ed4e4aeb264903307384fcc 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Palmov Island/Low Poly Atmospheric Locations Pack/Models/Plants/Grass/grass.fbx
+  importAddress: Guid(a891be4b42ad6d748ac1a77e9e67c9ea) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Palmov Island/Low Poly Atmospheric Locations Pack/Models/Plants/Grass/grass.fbx using Guid(a891be4b42ad6d748ac1a77e9e67c9ea) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'ecc6a43e3227498c4a58d1c074c45ad3') in 0.018373 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=9d0cbeca230928de20d2129419fe9e84 DependenciesID=2fdf8f73334857ea2b518c387d3bb870 StaticDependenciesID=8dd6f8e60daa869df06dfbcd6666f780 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Palmov Island/Low Poly Atmospheric Locations Pack/Models/Trees/Tree trunks/tree trunk 2.fbx
+  importAddress: Guid(07a076ff1eb120442974feb88096e97e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Palmov Island/Low Poly Atmospheric Locations Pack/Models/Trees/Tree trunks/tree trunk 2.fbx using Guid(07a076ff1eb120442974feb88096e97e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'c2a7dc2c0b7e4cae4262e417cf8afa09') in 0.0178905 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=0facde06e765ef5874191b3bb7502560 DependenciesID=29ad23c61b0e8810504e0b87d6cf229b StaticDependenciesID=f629843a426b0b2d409fc72f72e2039a 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Palmov Island/Low Poly Atmospheric Locations Pack/Prefabs/Location with environment/space shuttle launch with environment.prefab
+  importAddress: Guid(bfa0480056e122842bc0b06019fb3b34) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Palmov Island/Low Poly Atmospheric Locations Pack/Prefabs/Location with environment/space shuttle launch with environment.prefab using Guid(bfa0480056e122842bc0b06019fb3b34) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '08879549c2862a4272464c74e1cd10d3') in 0.0217822 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=88892196c0ebb7c0f4f97c3f01587c9d DependenciesID=14263b51a2ea72803811288e03ba7b6d StaticDependenciesID=9e0a73ec9323ac54c0ef7372798b97d9 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 213
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Palmov Island/Low Poly Atmospheric Locations Pack/Models/Stones/Desert stones/desert stone small 6.fbx
+  importAddress: Guid(77bd696961bc42548b8ccf37d13e86f8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Palmov Island/Low Poly Atmospheric Locations Pack/Models/Stones/Desert stones/desert stone small 6.fbx using Guid(77bd696961bc42548b8ccf37d13e86f8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'b86b061be358838a4a154cd926bacb0a') in 0.0175484 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=0237a33b13db052d2193492c6f74c23b DependenciesID=61cd990909a6cae558b91444251e7f1f StaticDependenciesID=2f45c9dc6629765153dd38b79b037265 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Palmov Island/Low Poly Atmospheric Locations Pack/Models/Stones/Stones large gray blue/stone large gray blue 4.fbx
+  importAddress: Guid(d1002d9c0cbe2ae46b3a7f87ccd4e883) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Palmov Island/Low Poly Atmospheric Locations Pack/Models/Stones/Stones large gray blue/stone large gray blue 4.fbx using Guid(d1002d9c0cbe2ae46b3a7f87ccd4e883) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '9065ad4902f44ae8359554782d390299') in 0.0224167 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=243898bc4bb09503a10b591424c1fcb7 DependenciesID=da3e72141b3d76488158de4c0abc605a StaticDependenciesID=5f891b763f9cd6b25fd1e8e7f47ebbf3 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Palmov Island/Low Poly Atmospheric Locations Pack/Prefabs/Environment/trash can.prefab
+  importAddress: Guid(1136a301d015db2439c59bae126b68bc) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Palmov Island/Low Poly Atmospheric Locations Pack/Prefabs/Environment/trash can.prefab using Guid(1136a301d015db2439c59bae126b68bc) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '83e878ef93316b8ca2d626bdfe1e817c') in 0.0157468 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=0abbc870bcd562d5419e7e137bcbf427 DependenciesID=f2a3ebf69680146ddf8e9f3628ab5d4c StaticDependenciesID=7116933ea353db4c599039e386161752 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Palmov Island/Low Poly Atmospheric Locations Pack/Models/Stones/Desert stones/desert stone small 3.fbx
+  importAddress: Guid(c276e055f12752942a83d10348f2710c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Palmov Island/Low Poly Atmospheric Locations Pack/Models/Stones/Desert stones/desert stone small 3.fbx using Guid(c276e055f12752942a83d10348f2710c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'd7ef980611ede5f8a5f63526782001f6') in 0.0183293 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=af24267a4b00c3271b94c6e437ec665f DependenciesID=af8a6a3834e33f53380dfb864f8c5334 StaticDependenciesID=2c0fbbc1eb20645fa56c8003a4e40436 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Palmov Island/Low Poly Atmospheric Locations Pack/Prefabs/Stones
+  importAddress: Guid(a4670082f96ab5741aff4f6a8a41504f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Palmov Island/Low Poly Atmospheric Locations Pack/Prefabs/Stones using Guid(a4670082f96ab5741aff4f6a8a41504f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '59813c8f084af1fab3ac1594e182e903') in 0.0105197 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=17c7683370e3ca31d7de6f00fd349d59 DependenciesID=afef896a530b1f8dc6425282808b5d48 StaticDependenciesID=4e2de2c0815b13c9f47cfecad0ef4f60 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Palmov Island/Low Poly Atmospheric Locations Pack/Models/Waters/water location japanes island.fbx
+  importAddress: Guid(2412bb7aa9902574fba76c82d370cce4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Palmov Island/Low Poly Atmospheric Locations Pack/Models/Waters/water location japanes island.fbx using Guid(2412bb7aa9902574fba76c82d370cce4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '7d89ebfd2bb42ec40270cee07ac28643') in 0.0183041 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=311fa583f44c53c889cb4d0b4341e26c DependenciesID=75f65e14fb2969fcc1f0553ef2675a6e StaticDependenciesID=8d4c786690d4cb217e7110e751dd85fe 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Palmov Island/Low Poly Atmospheric Locations Pack/Models/Environment/Camping environment
+  importAddress: Guid(04467e6b381b67742acf98821a037480) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Palmov Island/Low Poly Atmospheric Locations Pack/Models/Environment/Camping environment using Guid(04467e6b381b67742acf98821a037480) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'af44fb95132eb55dce416df609506483') in 0.0096427 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=a3186e8a241892f8631b72282d6bad24 DependenciesID=a3aee025476e503da306fde394819b57 StaticDependenciesID=4aef1cc689fa69d16fd7545d8074a904 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Palmov Island/Low Poly Atmospheric Locations Pack/Prefabs/Environment/solid rocket booster.prefab
+  importAddress: Guid(d20331a225f6a264e9eec3808119b32c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Palmov Island/Low Poly Atmospheric Locations Pack/Prefabs/Environment/solid rocket booster.prefab using Guid(d20331a225f6a264e9eec3808119b32c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '77bd4f1b5a9a4af650d0d7e04aebf73d') in 0.0166145 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=57bb3bf795d28cbb61401040871217f2 DependenciesID=ce27efa81965fa6d021acf7aeecfaec2 StaticDependenciesID=0d492af2e17fc96f418b1f43b9b0eb52 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Palmov Island/Low Poly Atmospheric Locations Pack/Models/Stones/Stones flat brown/stone flat brown 3.fbx
+  importAddress: Guid(7744c51ede6799f43b3278f692742331) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Palmov Island/Low Poly Atmospheric Locations Pack/Models/Stones/Stones flat brown/stone flat brown 3.fbx using Guid(7744c51ede6799f43b3278f692742331) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '90e8d9fe1f9945363b47693df02ae9f1') in 0.017829 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=8f1f7146ece0d03bf31d76c23f047cd4 DependenciesID=492e274caea62bcc4134d0ca10c33215 StaticDependenciesID=1aa9fb190ac6aeb6db64a9bdf5de3e80 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Palmov Island/Low Poly Atmospheric Locations Pack/Prefabs/Environment/smoke 2.prefab
+  importAddress: Guid(47b8b012996392e48af7e63979c4b6db) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Palmov Island/Low Poly Atmospheric Locations Pack/Prefabs/Environment/smoke 2.prefab using Guid(47b8b012996392e48af7e63979c4b6db) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'a88f4316a68bf945b30c2d66ad7ee1e7') in 0.01346 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=337c86f5a6e8cb24ff6357fab6bb289e DependenciesID=12af6326fa4e1edaa0fa6123aaafc0ed StaticDependenciesID=c90ef5cf19f02a683a6a2dfd804fc57f 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Palmov Island/Low Poly Atmospheric Locations Pack/Prefabs/Animals/horse black.prefab
+  importAddress: Guid(5e4881d3e7de9e74b868bfacc19d3386) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Palmov Island/Low Poly Atmospheric Locations Pack/Prefabs/Animals/horse black.prefab using Guid(5e4881d3e7de9e74b868bfacc19d3386) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'ba3bf3b864fd815836958866f43be192') in 0.0144376 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=d1a2003d1cbc1bcee367e3ebd127e58d DependenciesID=5cb6fcc8a0763b43b7ac7753f55ba229 StaticDependenciesID=91b082f458170a02a14fc7821b04d1cc 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Palmov Island/Low Poly Atmospheric Locations Pack/Models/Vehicles/sedan car brown.fbx
+  importAddress: Guid(bddfe9553868c7248a98a1e6e55f7dd6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Palmov Island/Low Poly Atmospheric Locations Pack/Models/Vehicles/sedan car brown.fbx using Guid(bddfe9553868c7248a98a1e6e55f7dd6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'ed19e4d38ccb0f8e3844076b10bebca4') in 0.0209663 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=60bdb6f99c7332fe33f84aeeef2dde4e DependenciesID=9402369499335cfcc73211a768ef471a StaticDependenciesID=ce63eaef885f538fd56f020e98d2837c 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 29
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Palmov Island/Low Poly Atmospheric Locations Pack/Models/Lands/land downtown.fbx
+  importAddress: Guid(365e7230065e0df4f917ddf0b537da00) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Palmov Island/Low Poly Atmospheric Locations Pack/Models/Lands/land downtown.fbx using Guid(365e7230065e0df4f917ddf0b537da00) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'fe95064e59bcdfa98df48d53ec570b98') in 0.0165348 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=9e1f87cc79e8b3d6147f2efad6dd4824 DependenciesID=d5a520cef2b73fbd275be52a2d162aba StaticDependenciesID=155c3abf858a622a1860f2eee4ef6425 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Palmov Island/Low Poly Atmospheric Locations Pack/Models/Vehicles/destroyed ship.fbx
+  importAddress: Guid(48f0aa790e68cac4e9b23a2f12085028) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Palmov Island/Low Poly Atmospheric Locations Pack/Models/Vehicles/destroyed ship.fbx using Guid(48f0aa790e68cac4e9b23a2f12085028) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '11c7385b3511d15e82e15d3fa64756d9') in 0.0176257 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=30484df7fbc32d24f39fbb53bed07f5d DependenciesID=164fc8842a332efde9329d7f721c5093 StaticDependenciesID=fa16f77f9b47dafb2525eead3d65ce4d 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Palmov Island/Low Poly Atmospheric Locations Pack/Scenes/All models.unity
+  importAddress: Guid(a38fc3a945cda43488e9a5295fa72684) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Palmov Island/Low Poly Atmospheric Locations Pack/Scenes/All models.unity using Guid(a38fc3a945cda43488e9a5295fa72684) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '4c9d7813a5b502771731a70db952b7e7') in 0.02844 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=fd1b3d5da57da03a623525c939933c39 DependenciesID=a75c66554630a992f85bf5e7861c2356 StaticDependenciesID=5e7407333cfa22e4c414c4260c00527d 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Palmov Island/Low Poly Atmospheric Locations Pack/Prefabs/Lands/land wild west railway station.prefab
+  importAddress: Guid(0500386a7695c904c9f446badf6e9375) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Palmov Island/Low Poly Atmospheric Locations Pack/Prefabs/Lands/land wild west railway station.prefab using Guid(0500386a7695c904c9f446badf6e9375) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'c64ea1bd287b13734bcd64934f728762') in 0.0151421 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=dc320e56040193d63de04ae208effb86 DependenciesID=8a788c88f111772fb1c45d5f1531d967 StaticDependenciesID=adb4266eb02f6c2b1dab8aa489605e1f 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Palmov Island/Low Poly Atmospheric Locations Pack/Prefabs/Houses
+  importAddress: Guid(78d18ca32bcd1eb499ba18a7f2cc9fff) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Palmov Island/Low Poly Atmospheric Locations Pack/Prefabs/Houses using Guid(78d18ca32bcd1eb499ba18a7f2cc9fff) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '9d95099f032877a0bcc9576da6f6de0c') in 0.0097163 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=318cbbc1108ebca05fd4a6a0e34f4850 DependenciesID=3a50312e1a4823e29cfe5f4b1d3d4291 StaticDependenciesID=f659d544d5136ddc217d9c9d416dca2b 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Palmov Island/Low Poly Atmospheric Locations Pack/Models/Lands/land camping forest.fbx
+  importAddress: Guid(734edc167a18e0e429bbf855e51e5651) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Palmov Island/Low Poly Atmospheric Locations Pack/Models/Lands/land camping forest.fbx using Guid(734edc167a18e0e429bbf855e51e5651) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '312e70f11b71595da54bbb147fd9cb81') in 0.0190713 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=d5a289d5d670f263771e4cab1fc28942 DependenciesID=bb8234828006d1898148952dd59ae75c StaticDependenciesID=3d77ead586190630ea71a1ad39b91bb9 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Palmov Island/Low Poly Atmospheric Locations Pack/Models/Vehicles/freight wagon black.fbx
+  importAddress: Guid(8d15028ff14d4a84f836ad9063e3c31d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Palmov Island/Low Poly Atmospheric Locations Pack/Models/Vehicles/freight wagon black.fbx using Guid(8d15028ff14d4a84f836ad9063e3c31d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'fc609323173039cbeaf6f89443bc97d5') in 0.0214332 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=9360c46b6e51534ae7d82af1dd16e89a DependenciesID=136a6b4a2d21b8958d1b5ff289d85b5b StaticDependenciesID=2e4c0b595716947f2b13a0b102a5347e 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 34
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Palmov Island/Low Poly Atmospheric Locations Pack/Models/Vehicles/space shuttle.fbx
+  importAddress: Guid(6228c1b039216554c88816aa01443e53) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Palmov Island/Low Poly Atmospheric Locations Pack/Models/Vehicles/space shuttle.fbx using Guid(6228c1b039216554c88816aa01443e53) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'd1732935c55d4424a8fb62ef39aca4ed') in 0.0181975 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=34f2e2a75be52baa7f0da6f34de8bd71 DependenciesID=cd5597864abb89f7f0e9ca40815d6766 StaticDependenciesID=e65a2511a5e6c389659b33aaecac39c4 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Palmov Island/Low Poly Atmospheric Locations Pack/Prefabs/Plants/Cacti/cactus.prefab
+  importAddress: Guid(6d621b3094d7b134198e7037cd5c9cab) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Palmov Island/Low Poly Atmospheric Locations Pack/Prefabs/Plants/Cacti/cactus.prefab using Guid(6d621b3094d7b134198e7037cd5c9cab) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'bceac5997bf80b5cc9cd08dd7a1054a5') in 0.013795 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=2e182d1496dfa80bfa379decdde20c32 DependenciesID=d0ac91ee061b4364e3d76e953073171f StaticDependenciesID=8dfc5800eff845cb30e60eec6415e585 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Palmov Island/Low Poly Atmospheric Locations Pack/Models/Plants/Mushrooms brown/mushroom brown 2.fbx
+  importAddress: Guid(a24500b683c56964eb365dc8f2a3d49b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Palmov Island/Low Poly Atmospheric Locations Pack/Models/Plants/Mushrooms brown/mushroom brown 2.fbx using Guid(a24500b683c56964eb365dc8f2a3d49b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'd5dbc3b8548a7f8a8dafc056ea7df328') in 0.0158921 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=6f1c7be708574fd959e561b9a7d0b9a0 DependenciesID=966a5149927ddfa2f476708920dec4fe StaticDependenciesID=4cfbd3dca08fab413349d812fd807aaf 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Palmov Island/Low Poly Atmospheric Locations Pack/Prefabs/Trees/Fir trees winter
+  importAddress: Guid(8070193e51a8ab447b50fd8e3a692f1c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Palmov Island/Low Poly Atmospheric Locations Pack/Prefabs/Trees/Fir trees winter using Guid(8070193e51a8ab447b50fd8e3a692f1c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '316c5b80c39e62b57db1a2fb80e1e009') in 0.010387 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=a7e15c759e0ebbfdcaffa33c64b40f95 DependenciesID=19fcc369f88b2c6b2db23c7a0f9ea9f1 StaticDependenciesID=3f43c6fb5163a75ef83cb0589a5dbc0f 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Palmov Island/Low Poly Atmospheric Locations Pack/Prefabs/Environment/Winter environment/christmas wreath.prefab
+  importAddress: Guid(536554a1978637c44ab6323892b70aa7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Palmov Island/Low Poly Atmospheric Locations Pack/Prefabs/Environment/Winter environment/christmas wreath.prefab using Guid(536554a1978637c44ab6323892b70aa7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '5a4440d60b5e8f651727c3efe9cec1bc') in 0.0136585 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=7290021fd3367c9341854634dcc034b1 DependenciesID=0c9d1135c5a97bc11a22631c5009432b StaticDependenciesID=6494f160a362c873225dd7a432063e72 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Palmov Island/Low Poly Atmospheric Locations Pack/Prefabs/Houses/Buildings/building 4.prefab
+  importAddress: Guid(99a959b331b20104e8f364b0f5571029) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Palmov Island/Low Poly Atmospheric Locations Pack/Prefabs/Houses/Buildings/building 4.prefab using Guid(99a959b331b20104e8f364b0f5571029) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '63909bb5a48a360bb719513ae380f49a') in 0.0153956 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=6caa7c6a90d4bf66decdb4451424a873 DependenciesID=e4fdd23ddfeb09efc5177c01a9ea9e27 StaticDependenciesID=99f464f76d83b9cd3466f42498d429ef 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Palmov Island/Low Poly Atmospheric Locations Pack/Prefabs/Stones/Stones small
+  importAddress: Guid(36fb8788f8e2ad849b46309bdf87562f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Palmov Island/Low Poly Atmospheric Locations Pack/Prefabs/Stones/Stones small using Guid(36fb8788f8e2ad849b46309bdf87562f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '5f7cb94c0b118ea0c6fdb755c2aeb54c') in 0.0101506 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=5ce4000499f43a908c07f0072ce283bc DependenciesID=4c511a23a2846e181bb4b16170f596c6 StaticDependenciesID=ac23c244ea6d5e3e682f6839018fbaee 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Palmov Island/Low Poly Atmospheric Locations Pack/Prefabs/Vehicles/boat.prefab
+  importAddress: Guid(e6e50a3df58977742a60bd31ec35aff3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Palmov Island/Low Poly Atmospheric Locations Pack/Prefabs/Vehicles/boat.prefab using Guid(e6e50a3df58977742a60bd31ec35aff3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'bb385b1422578eb9463b89e569582985') in 0.0172672 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=0c0c6f322dc3d3703fdc1946a134c1e0 DependenciesID=fe604f09a07b763e9f6e1f947b6406c5 StaticDependenciesID=c99c4defb465d2c81f00f38b71e00c37 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Palmov Island/Low Poly Atmospheric Locations Pack/Models/Environment/wooden post.fbx
+  importAddress: Guid(351d413075da3c14ca0cc61658564305) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Palmov Island/Low Poly Atmospheric Locations Pack/Models/Environment/wooden post.fbx using Guid(351d413075da3c14ca0cc61658564305) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '66f704ebbc5f8db53ff1a059506ae83e') in 0.0175906 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=5d2b38941d12d82b7d1ec16e677eacdd DependenciesID=a87c6b7235c5622184f5d6feee030736 StaticDependenciesID=116b440a8d55a6f715443b7f6e268eed 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Palmov Island/Low Poly Atmospheric Locations Pack/Models/Trees/Fir trees
+  importAddress: Guid(667bcca044aec6d4aa71465d6d9ce1b5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Palmov Island/Low Poly Atmospheric Locations Pack/Models/Trees/Fir trees using Guid(667bcca044aec6d4aa71465d6d9ce1b5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '43cc0e24a1c3c97f7c2bd2fb0625e9d6') in 0.0106132 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=4a00f9912bc524d94e5a76167904e035 DependenciesID=1c7da527d4fa84adccf8b572d3a70e87 StaticDependenciesID=22e0ca1c029e25972931ebfa7c1407e0 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Palmov Island/Low Poly Atmospheric Locations Pack/Models/Stones/Stones small
+  importAddress: Guid(300c578d1638a3b42b0d3d01469ca809) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Palmov Island/Low Poly Atmospheric Locations Pack/Models/Stones/Stones small using Guid(300c578d1638a3b42b0d3d01469ca809) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'f013eb9e39775d715fb518a5c4449af6') in 0.0101279 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=2ca30355784be26a763cf86eaccd1117 DependenciesID=dae52962236526dfafbb2d327d889944 StaticDependenciesID=94773627a90e38798c706a02a63766b4 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Palmov Island/Low Poly Atmospheric Locations Pack/Models
+  importAddress: Guid(0e4b5e08176f51a4d8979f735eddbd9b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Palmov Island/Low Poly Atmospheric Locations Pack/Models using Guid(0e4b5e08176f51a4d8979f735eddbd9b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '829df39d9011cbe63ee4e373e9c9fe77') in 0.0095512 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=1e9d1b4eb2872cad9db543320976fca2 DependenciesID=ad6bf1c608e6d0fba92a814c82c54964 StaticDependenciesID=04307b1b641380ca2a0f452a34d7e2b6 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Palmov Island/Low Poly Atmospheric Locations Pack/Models/Stones/Stones small/stone small 5.fbx
+  importAddress: Guid(8733375a79a046e45aed3d7273f18ccd) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Palmov Island/Low Poly Atmospheric Locations Pack/Models/Stones/Stones small/stone small 5.fbx using Guid(8733375a79a046e45aed3d7273f18ccd) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '95a19d4b035a98520f4dd65f3ff593f5') in 0.0186497 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=6c8522401e415a4ee117b142290510de DependenciesID=4926664594e593e783cf264f9693aca9 StaticDependenciesID=bf99475721ac3a7d733a6c9d1b1b038a 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Palmov Island/Low Poly Atmospheric Locations Pack/Prefabs/Stones/Stones winter small
+  importAddress: Guid(10cb2c9eadc1ffb4db4c2d80e431666e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Palmov Island/Low Poly Atmospheric Locations Pack/Prefabs/Stones/Stones winter small using Guid(10cb2c9eadc1ffb4db4c2d80e431666e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '37783441672d80327400b009c23d98fc') in 0.0094103 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=d1fe0e5fea0593c5648e30e360ccec65 DependenciesID=ec3320036ce92cce44baffa2dd253606 StaticDependenciesID=d14e8e4073d8b2a3592a1cb93fcb58cc 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Palmov Island/Low Poly Atmospheric Locations Pack/Models/Stones/Stones small gray blue/stone small gray blue 5.fbx
+  importAddress: Guid(40fda447e5747b047a3792099eb0f062) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Palmov Island/Low Poly Atmospheric Locations Pack/Models/Stones/Stones small gray blue/stone small gray blue 5.fbx using Guid(40fda447e5747b047a3792099eb0f062) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '241951e4aa0109aec56d7f4de6632718') in 0.016391 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=a48c32832fc43c50d603db73d0b2d247 DependenciesID=714207b886776171d230b035603d3b33 StaticDependenciesID=45de94ec862ce63134787be42863277b 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Palmov Island/Low Poly Atmospheric Locations Pack/Prefabs/Islands
+  importAddress: Guid(ef67131990123b54097af9c152dde0e1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Palmov Island/Low Poly Atmospheric Locations Pack/Prefabs/Islands using Guid(ef67131990123b54097af9c152dde0e1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '4bc3a946abc4ea499747f136bf95bf2e') in 0.0096713 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=145920e82415a04c5a6950afc59e3af3 DependenciesID=2095d0f3210f2b0ee15272e1f19347fb StaticDependenciesID=4a7dcf2b7324117d1de14e58f2278a2f 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Palmov Island/Low Poly Atmospheric Locations Pack/Models/Environment/electric pole.fbx
+  importAddress: Guid(16a79e554f575344fb424be3ea7a5e3f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Palmov Island/Low Poly Atmospheric Locations Pack/Models/Environment/electric pole.fbx using Guid(16a79e554f575344fb424be3ea7a5e3f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '3cb58c8d4abe65e40ae499232607186c') in 0.0159003 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=5f7ea2a4fcd4c5cf1af76df935313081 DependenciesID=d4dcd8751530f9b313d8eaf348afb8b3 StaticDependenciesID=47c0c075ac2d765d7cc1daafbae85bf6 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Palmov Island/Low Poly Atmospheric Locations Pack/Models/Houses/Buildings/building.fbx
+  importAddress: Guid(1c20beaf1abfad5419158523c9a4cda1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Palmov Island/Low Poly Atmospheric Locations Pack/Models/Houses/Buildings/building.fbx using Guid(1c20beaf1abfad5419158523c9a4cda1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '0bb0ed2289952de98ba22fa3f841b076') in 0.0172959 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=261aacdb61b2e9186d1d456fd7a9f570 DependenciesID=7d517e9cc38819e36f9bf281ddc02379 StaticDependenciesID=7006062f4f7f69e6c520f445a8429b77 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Palmov Island/Low Poly Atmospheric Locations Pack/Prefabs/Environment/Benchs/bench 2.prefab
+  importAddress: Guid(99ffd8e5301e70b47941b11740fb436d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Palmov Island/Low Poly Atmospheric Locations Pack/Prefabs/Environment/Benchs/bench 2.prefab using Guid(99ffd8e5301e70b47941b11740fb436d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '462138cf5f072e7ebb0bdfde43cfa733') in 0.015192 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=71c8f22fd2093ee08abd59942a795874 DependenciesID=e4cf9e01b67c10f45498586e6344763a StaticDependenciesID=10d2a76fffb487c7cbc21764f6ffc8e2 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Palmov Island/Low Poly Atmospheric Locations Pack/Prefabs/Stones/Desert stones/desert stone small.prefab
+  importAddress: Guid(73e2edc392198a940bcda6f6a14f07ee) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Palmov Island/Low Poly Atmospheric Locations Pack/Prefabs/Stones/Desert stones/desert stone small.prefab using Guid(73e2edc392198a940bcda6f6a14f07ee) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '8e81738b6c714722f7ed475abe27f55c') in 0.0151741 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=9157943d87451c0302eb71e94f4dd2bf DependenciesID=cf1ed0f1b2b9a544dbc4ef7fce2eccad StaticDependenciesID=901e862d89b8a0656351fbad956d5c6b 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Palmov Island/Low Poly Atmospheric Locations Pack/Prefabs/Waters/water location desert pyramids.prefab
+  importAddress: Guid(2ba84dca5dc8f0f4ea82ea4dad6a9785) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Palmov Island/Low Poly Atmospheric Locations Pack/Prefabs/Waters/water location desert pyramids.prefab using Guid(2ba84dca5dc8f0f4ea82ea4dad6a9785) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '92e6939b53a4e3ab577426d2826f0613') in 0.0145069 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=a2818aac9aa1fb848b480503ea98d200 DependenciesID=08da2125bef5ec3c37423ed76dd20580 StaticDependenciesID=22b63e4e59677cc90e679e620230cc3b 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Palmov Island/Low Poly Atmospheric Locations Pack/Models/Environment/Pyramids/pyramid.fbx
+  importAddress: Guid(deba2f9c1ba4c9841aa4fbba075244cc) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Palmov Island/Low Poly Atmospheric Locations Pack/Models/Environment/Pyramids/pyramid.fbx using Guid(deba2f9c1ba4c9841aa4fbba075244cc) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'fe02a2be9523946a5c45011bbd3b70bb') in 0.0177344 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=40f4bd5c55fe931f0e56960055dc1166 DependenciesID=1411edb676dcc6a04079cc2529f2392b StaticDependenciesID=a6da7bcb34b6f57028a242335b5c1208 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Palmov Island/Low Poly Atmospheric Locations Pack/Prefabs/Stones/Desert stones/desert stone small 10.prefab
+  importAddress: Guid(f160cbbed373cc7488efbdccf6e7ea4b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Palmov Island/Low Poly Atmospheric Locations Pack/Prefabs/Stones/Desert stones/desert stone small 10.prefab using Guid(f160cbbed373cc7488efbdccf6e7ea4b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '4c363e1734d0c8d11e2da369d8e8a2d8') in 0.0165804 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=1f7bfcf360bc226394cddce4601637ce DependenciesID=7eb9e15f9fa32f8170e54f2f73bb7f93 StaticDependenciesID=87c19646920900bb877b76175d090de5 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Palmov Island/Low Poly Atmospheric Locations Pack/Prefabs/Environment/fountain.prefab
+  importAddress: Guid(f248f39659cf356418d302511cdce0bc) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Palmov Island/Low Poly Atmospheric Locations Pack/Prefabs/Environment/fountain.prefab using Guid(f248f39659cf356418d302511cdce0bc) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'dfcc4cf3e9e4dba9f410cebc4f506706') in 0.0149698 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=9d45ec2ceb5588eab2144d93fc3b1ed2 DependenciesID=e5f0cee64c9ee849017ac1690e24c07f StaticDependenciesID=dc32077e429474ca4b4f19957f1968e6 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Palmov Island/Low Poly Atmospheric Locations Pack/Models/Waters/water location autumn atmosphere forest.fbx
+  importAddress: Guid(abe26545c14209942903e8f64bb87f19) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Palmov Island/Low Poly Atmospheric Locations Pack/Models/Waters/water location autumn atmosphere forest.fbx using Guid(abe26545c14209942903e8f64bb87f19) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'e4bcd73de92dd098518ed6d9aee838a7') in 0.0172805 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=911179d91ab6f6e7d42beda8d1acce88 DependenciesID=7a859d1e35c208b06a9ae5854328563a StaticDependenciesID=7739d85423af3f5bc7c6854ae19b72aa 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Palmov Island/Low Poly Atmospheric Locations Pack/Scenes/Location desert pyramids.unity
+  importAddress: Guid(0edecaf13b593624e8812d812e8bb8c8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Palmov Island/Low Poly Atmospheric Locations Pack/Scenes/Location desert pyramids.unity using Guid(0edecaf13b593624e8812d812e8bb8c8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'a54e9bfc1eaf18a001b80c8a0214b7f7') in 0.0108442 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=5bf41c98e7d5030bc8195a70e1c0a19e DependenciesID=6c212dd64093931224b6cf5321a04e5b StaticDependenciesID=ecb24cc34afe805566771d5cf2656057 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Palmov Island/Low Poly Atmospheric Locations Pack/Models/Trees/Autumn trees/autumn tree 2.fbx
+  importAddress: Guid(560c64f021372994c9f6e8d10480faf4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Palmov Island/Low Poly Atmospheric Locations Pack/Models/Trees/Autumn trees/autumn tree 2.fbx using Guid(560c64f021372994c9f6e8d10480faf4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '5f0b8402bee2f4822d205da7583282a7') in 0.018588 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=b884b1d3040c04d43afb1e94bebcc592 DependenciesID=c4a6aacd12a1cc28c8a959b73f02b2e9 StaticDependenciesID=698942a1ac648f025cafc0252e6f4657 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Palmov Island/Low Poly Atmospheric Locations Pack/Models/Stones/Stones small/stone small 11.fbx
+  importAddress: Guid(8a878e28d7469ec478dd83e72e9ab75f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Palmov Island/Low Poly Atmospheric Locations Pack/Models/Stones/Stones small/stone small 11.fbx using Guid(8a878e28d7469ec478dd83e72e9ab75f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '29929600d02c92906215ef56c3391250') in 0.0190344 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=b6eb5e202b696e4f413a4b70b117547f DependenciesID=dddf7f246472692446f24bf0a50cbfe0 StaticDependenciesID=a0e92ce7330edd9a27bb5d6b56ed1374 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Palmov Island/Low Poly Atmospheric Locations Pack/Prefabs/Environment/coal.prefab
+  importAddress: Guid(0665d489adc6e834a971afad04a68258) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Palmov Island/Low Poly Atmospheric Locations Pack/Prefabs/Environment/coal.prefab using Guid(0665d489adc6e834a971afad04a68258) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'd78fccdcaf0f1306005241717b692125') in 0.0162238 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=66c82e4c78ea91495a109654b862230d DependenciesID=c46eba65c94891b40e550e5520e72500 StaticDependenciesID=c21ca5a9819b2a82b8b972c1f2ea4c0b 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Palmov Island/Low Poly Atmospheric Locations Pack/Scenes/Location autumn atmosphere forest.unity
+  importAddress: Guid(7de6c5c3229750c46b54f0e4ad9d5cfd) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Palmov Island/Low Poly Atmospheric Locations Pack/Scenes/Location autumn atmosphere forest.unity using Guid(7de6c5c3229750c46b54f0e4ad9d5cfd) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '8670d8a85d08a02d17de0250e6c91dc1') in 0.0104089 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=9a983a46286c6357f64fac1d52d5514b DependenciesID=775436c5203ad53317c5924085ce693a StaticDependenciesID=efa4847a15da35e6f4cf58a4115485b3 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Palmov Island/Low Poly Atmospheric Locations Pack/Prefabs/Environment/Barrels/barrel 2.prefab
+  importAddress: Guid(186a96d379b636e41a8f597048589a69) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Palmov Island/Low Poly Atmospheric Locations Pack/Prefabs/Environment/Barrels/barrel 2.prefab using Guid(186a96d379b636e41a8f597048589a69) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'ad44b08ac3f4a92a26de740595850b7c') in 0.0153354 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=2466914aa1a08e2f259167007444208b DependenciesID=e61424a8af6ea8a45d4a74b6d1c6e3e6 StaticDependenciesID=2071d29f7fac13f3b2f7406cd3fd09ab 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Palmov Island/Low Poly Atmospheric Locations Pack/Prefabs/Vehicles/train.prefab
+  importAddress: Guid(c72a673d93e37b04a95de4917cee158d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Palmov Island/Low Poly Atmospheric Locations Pack/Prefabs/Vehicles/train.prefab using Guid(c72a673d93e37b04a95de4917cee158d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'bca684084314c4f528228bc00c6e0e42') in 0.0108136 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=48881058d63eb930d69ae7eeec7aa85f DependenciesID=098f9cd6a906f29cc9ac8ca31c5faf50 StaticDependenciesID=473187a1481c10726b43eff8eef31d7e 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 34
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Palmov Island/Low Poly Atmospheric Locations Pack/Models/Environment/Sports environment/soccer grandstand.fbx
+  importAddress: Guid(5b16ec637dbbfb94dbead62cf58356ee) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Palmov Island/Low Poly Atmospheric Locations Pack/Models/Environment/Sports environment/soccer grandstand.fbx using Guid(5b16ec637dbbfb94dbead62cf58356ee) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '65f022e9b25451b2eb8219c9dcb56249') in 0.0207776 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=4292f5cbebe66091424d7f65fc23c87d DependenciesID=80eba7bae721d6ce2980da2bde953e6c StaticDependenciesID=096f0bcb1d7301759463d6ecc9dbf2f7 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Palmov Island/Low Poly Atmospheric Locations Pack/Models/Environment/exhaust fan 2.fbx
+  importAddress: Guid(ba075f4b33d8cfe4aaf2519c08ac3f08) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Palmov Island/Low Poly Atmospheric Locations Pack/Models/Environment/exhaust fan 2.fbx using Guid(ba075f4b33d8cfe4aaf2519c08ac3f08) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '4bed630aa46329aa80f1c54add5801d6') in 0.0228641 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=b7d14fb941e7f4b531a472093d58d72d DependenciesID=e9294023bc6b7a5e3d3800da7d703a74 StaticDependenciesID=c3a4e4589e1f46113341e714f01011bd 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Palmov Island/Low Poly Atmospheric Locations Pack/Prefabs/Animals/horse brown.prefab
+  importAddress: Guid(297fc0831e599c64784f54a93fe3eae7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Palmov Island/Low Poly Atmospheric Locations Pack/Prefabs/Animals/horse brown.prefab using Guid(297fc0831e599c64784f54a93fe3eae7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '77015c2966aff771352d9b28121679db') in 0.0290343 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=a50f2ebf7ef16ed1cee43a765d4dc8f4 DependenciesID=d93f8f7250a9c3bb05d6d18b22201df2 StaticDependenciesID=84346d9c621486ae3393846f17ec88d8 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Palmov Island/Low Poly Atmospheric Locations Pack/Models/Trees/Palm trees/palm tree small.fbx
+  importAddress: Guid(194bab44bc004fa4d8556aa83b38cfa8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Palmov Island/Low Poly Atmospheric Locations Pack/Models/Trees/Palm trees/palm tree small.fbx using Guid(194bab44bc004fa4d8556aa83b38cfa8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '725acbf846ee8406848617c670e69170') in 0.0169952 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=94451c29d4e1b977aeeec2475ebb78d5 DependenciesID=c2c20e5042ff8c72fe2593581e3cddf1 StaticDependenciesID=74f1324f95e9b938038dd6bbd9b47b2c 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Palmov Island/Low Poly Atmospheric Locations Pack/Prefabs/Plants/Grass/grass 3.prefab
+  importAddress: Guid(e62f18d2541164440ab785a59a56a35c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Palmov Island/Low Poly Atmospheric Locations Pack/Prefabs/Plants/Grass/grass 3.prefab using Guid(e62f18d2541164440ab785a59a56a35c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '185c06cb698b949517a708a3d69117d7') in 0.0162618 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=1f09f5f0cfc7ae65d0c03821cd458b9d DependenciesID=909a003635d3afbe0abf5578980f2653 StaticDependenciesID=cdc4abd18986d30dd4de9f8609300e4f 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Palmov Island/Low Poly Atmospheric Locations Pack/Prefabs/Plants/Cacti/cactus 3.prefab
+  importAddress: Guid(0f662f81b6e44354ca7b1434779660d7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Palmov Island/Low Poly Atmospheric Locations Pack/Prefabs/Plants/Cacti/cactus 3.prefab using Guid(0f662f81b6e44354ca7b1434779660d7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '6c9a4e8ee318a6670b74fac0de7672b8') in 0.0161966 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=7dbb25249699d319fd977c95d553809d DependenciesID=6f024a8de758a910617b0cd5a57d9c52 StaticDependenciesID=7112f2e9463204f781fb6dc01f262acf 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Palmov Island/Low Poly Atmospheric Locations Pack/Prefabs/Environment/Winter environment/Garlands/garland 2.prefab
+  importAddress: Guid(b98747de7415c5c4ebefb290a26579b9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Palmov Island/Low Poly Atmospheric Locations Pack/Prefabs/Environment/Winter environment/Garlands/garland 2.prefab using Guid(b98747de7415c5c4ebefb290a26579b9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '1e949cd20899d9d7b57a0433baf22475') in 0.0162685 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=c3deecbec313e3cab0e9547c25ac6a31 DependenciesID=59b353e90750a5a8558e1e0a2b1fb372 StaticDependenciesID=50e9338d34b4fded601720f74eba2687 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Palmov Island/Low Poly Atmospheric Locations Pack/Models/Stones/Desert stones/desert stone small 2.fbx
+  importAddress: Guid(39ec36f804132b546861f56727e9bc8d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Palmov Island/Low Poly Atmospheric Locations Pack/Models/Stones/Desert stones/desert stone small 2.fbx using Guid(39ec36f804132b546861f56727e9bc8d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'baa129fbf09aa11d5d992ec4b926fc0a') in 0.0256481 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=b12b55e76bf66dd9758778ee2e2265a7 DependenciesID=04dca75d4f06f4c7b9ce9bba3aa00c4c StaticDependenciesID=c7d55a0efd6f258a73cf49a06c52fcc6 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Palmov Island/Low Poly Atmospheric Locations Pack/Prefabs/Stones/stones group winter.prefab
+  importAddress: Guid(03e7f6e9666effd47a0503452842ef35) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Palmov Island/Low Poly Atmospheric Locations Pack/Prefabs/Stones/stones group winter.prefab using Guid(03e7f6e9666effd47a0503452842ef35) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'e214f928a1370811375eb01f8828a3c1') in 0.0175707 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=7ca9f3e6bd82f75417883278b42f11d4 DependenciesID=c891aa01b3d0630d796acc63a8fe3ad9 StaticDependenciesID=8f10aaf3999cd75c1b312434c3a1bdfb 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Palmov Island/Low Poly Atmospheric Locations Pack/Models/Environment/Camping environment/camping tent red.fbx
+  importAddress: Guid(99e972b6fa4ef854db5fae92c4585b7c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Palmov Island/Low Poly Atmospheric Locations Pack/Models/Environment/Camping environment/camping tent red.fbx using Guid(99e972b6fa4ef854db5fae92c4585b7c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '6ffc08c71c61114b076a64eba45f6871') in 0.0205957 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=7abd64c46b605935e9bcc9d90a127f30 DependenciesID=1fdd4f5ad86197bbcce0d5b1cb0bf775 StaticDependenciesID=048c3a3966ec3bf0b6df009704c25f0d 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Palmov Island/Low Poly Atmospheric Locations Pack/Models/Islands/treasure Island.fbx
+  importAddress: Guid(d42b995400193b14e9f5b1c8f9b002d9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Palmov Island/Low Poly Atmospheric Locations Pack/Models/Islands/treasure Island.fbx using Guid(d42b995400193b14e9f5b1c8f9b002d9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '45641046899b16896e71f1a1688f2508') in 0.018326 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=0db4666fe73efd50985a07dd439decb5 DependenciesID=8a285337da9e2dd091f2d9c8bdee909e StaticDependenciesID=daf66c4ac6d5dfd9494ee45522970cc9 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Palmov Island/Low Poly Atmospheric Locations Pack/Models/Stones/Stones small gray blue/stone small gray blue 6.fbx
+  importAddress: Guid(286ae5a2b997e144eaa6a1d6404c236c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Palmov Island/Low Poly Atmospheric Locations Pack/Models/Stones/Stones small gray blue/stone small gray blue 6.fbx using Guid(286ae5a2b997e144eaa6a1d6404c236c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'ab3a0c0a3b46e3fd1821096493a226ea') in 0.016749 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=95dab8df40f733f1a0fc1308cdb9ce1a DependenciesID=0aaa4ff5885bd711b9090ee825ac3796 StaticDependenciesID=7aa40cd5375e1fc7a6e260d326798305 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Palmov Island/Low Poly Atmospheric Locations Pack/Models/Stones/stone medium.fbx
+  importAddress: Guid(3fd3249b0d26c8344adc16280798a45b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Palmov Island/Low Poly Atmospheric Locations Pack/Models/Stones/stone medium.fbx using Guid(3fd3249b0d26c8344adc16280798a45b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '6be05522b8d5b76b97fff42fc0ce1c4f') in 0.0178916 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=fef2f440b4f5c01d2d9f3d7211c65613 DependenciesID=34b56cbcf2800f158f16922de0b4a6a8 StaticDependenciesID=73ac53559a4a49f6cd3aa435b953b43c 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Palmov Island/Low Poly Atmospheric Locations Pack/Models/Trees/Dry trees
+  importAddress: Guid(a059b518be350a34889c377c5e262abb) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Palmov Island/Low Poly Atmospheric Locations Pack/Models/Trees/Dry trees using Guid(a059b518be350a34889c377c5e262abb) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'a1403da1ed84f8927fb1505729c34f5a') in 0.0092938 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=9f0ea1feba7c9532e2f04610378bc52e DependenciesID=11ec00da03f4fa90d6c21d351d7ac174 StaticDependenciesID=6025f2efd2c44829513e37558b369f4e 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Palmov Island/Low Poly Atmospheric Locations Pack/Models/Environment/Winter environment/Christmas balls
+  importAddress: Guid(af3f85007f74db440b9c35ef226cd39c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Palmov Island/Low Poly Atmospheric Locations Pack/Models/Environment/Winter environment/Christmas balls using Guid(af3f85007f74db440b9c35ef226cd39c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '2ec9d02b7f786d7a02d785bc3197a231') in 0.0095674 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=1678075d9cb67ea1a60d2650de834ecf DependenciesID=4f2bf5fe11a6b961aba2005012b46621 StaticDependenciesID=77349f6b009a5bacfffd84e90f0c3ea0 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Palmov Island/Low Poly Atmospheric Locations Pack/Models/Environment
+  importAddress: Guid(335ef6b013983ed4da37d4bace0abfa3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Palmov Island/Low Poly Atmospheric Locations Pack/Models/Environment using Guid(335ef6b013983ed4da37d4bace0abfa3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'cfbe8b5de75990f4d1763270931e7920') in 0.0090873 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=42027e5301649079fd8c73d876eead51 DependenciesID=e16cdbe0dcb89ab9b169a0a7b3d510d0 StaticDependenciesID=8f8d84e64626bb5e87891bf5b253435e 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Palmov Island/Low Poly Atmospheric Locations Pack/Prefabs/Trees/Palm trees/palm tree tilted.prefab
+  importAddress: Guid(4d2ddceca7cf22a40b5e057ba049dc66) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Palmov Island/Low Poly Atmospheric Locations Pack/Prefabs/Trees/Palm trees/palm tree tilted.prefab using Guid(4d2ddceca7cf22a40b5e057ba049dc66) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '9893ee51dd43deb1b570d7c42cbda3fc') in 0.0156928 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=44ebed975f676fb6f9bae0917f6c08a2 DependenciesID=2604af0e79d2bc674351d2d2d89fed87 StaticDependenciesID=24de911fedb6693cc8275abd9d599aae 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Palmov Island/Low Poly Atmospheric Locations Pack/Models/Environment/Winter environment/Christmas balls/ball yellow.fbx
+  importAddress: Guid(3046ec443daf14d40a1b076e63619d22) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Palmov Island/Low Poly Atmospheric Locations Pack/Models/Environment/Winter environment/Christmas balls/ball yellow.fbx using Guid(3046ec443daf14d40a1b076e63619d22) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '8533f3a183ec802a7749db3385fe7a46') in 0.018657 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=ae8cf90ce428b004c01637182ab28483 DependenciesID=65e0b265ee71f5ff1402e9e497adedec StaticDependenciesID=8ca209fa04278101708a5a93eb822063 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Palmov Island/Low Poly Atmospheric Locations Pack/Prefabs/Plants/Mushrooms brown/mushroom brown.prefab
+  importAddress: Guid(55617228008ec13468efdb1320ff57bb) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Palmov Island/Low Poly Atmospheric Locations Pack/Prefabs/Plants/Mushrooms brown/mushroom brown.prefab using Guid(55617228008ec13468efdb1320ff57bb) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '775be84eaed1424aebf814b4f233138e') in 0.0159083 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=d5d1d524372449e3f39f128fad37b44d DependenciesID=0eb24b0d2ce69ea46306cec1f6157117 StaticDependenciesID=688671328825260c15a315bf2d91b25a 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Palmov Island/Low Poly Atmospheric Locations Pack/Prefabs/Houses/Buildings/building 2.prefab
+  importAddress: Guid(57035b75116f30f4eadb1e73b6eb3409) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Palmov Island/Low Poly Atmospheric Locations Pack/Prefabs/Houses/Buildings/building 2.prefab using Guid(57035b75116f30f4eadb1e73b6eb3409) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '3d5e5dbed81192281edf500aeb9e7a34') in 0.0166079 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=e033f0998e5f70443e5c7daa98d8924d DependenciesID=679e96a5ba97ea233a628f23fd72c22e StaticDependenciesID=7b23ba422364f90c8ef74ee7302c7726 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Palmov Island/Low Poly Atmospheric Locations Pack/Prefabs/Stones/Stones small gray blue/stone small gray blue 6.prefab
+  importAddress: Guid(ffb41be0fc9ea0b4f80dc4e47b68c697) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Palmov Island/Low Poly Atmospheric Locations Pack/Prefabs/Stones/Stones small gray blue/stone small gray blue 6.prefab using Guid(ffb41be0fc9ea0b4f80dc4e47b68c697) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'd6c4df137d067702c61ed70c6e9ac69f') in 0.0143105 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=27fc652f1038639a5f5764f9d55cbe3f DependenciesID=336b4813a3247d1195852cb1fee1d349 StaticDependenciesID=d233e6c62c216bad3aec35b5d946b7f6 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Palmov Island/Low Poly Atmospheric Locations Pack/Models/Trees/Dry trees/dry tree.fbx
+  importAddress: Guid(59bfb68b67435c44f9decaf95cfac373) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Palmov Island/Low Poly Atmospheric Locations Pack/Models/Trees/Dry trees/dry tree.fbx using Guid(59bfb68b67435c44f9decaf95cfac373) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'ae649347f3ff3acc8d26cf299d8a337b') in 0.0167496 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=67f098eae271769e78d190103201afd3 DependenciesID=ff5a5853421c6060519b048f38fcd790 StaticDependenciesID=36e399bd8f511ddbcc07fef1813c67c1 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Palmov Island/Low Poly Atmospheric Locations Pack/Materials
+  importAddress: Guid(34c7f8076e3b50d4895f35b86dcc7979) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Palmov Island/Low Poly Atmospheric Locations Pack/Materials using Guid(34c7f8076e3b50d4895f35b86dcc7979) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '48a35362e1d39e5300c7470aa15fe6fb') in 0.0087337 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=bd4438fcf6d838d6efbcfcb361d78f16 DependenciesID=73c966c6f0585aa6026fa03f529f2aeb StaticDependenciesID=73eb11231fa269dd35886b3460b2b634 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Palmov Island/Low Poly Atmospheric Locations Pack/Models/Plants/bush plant.fbx
+  importAddress: Guid(2278e8d44be66364289409037be9045d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Palmov Island/Low Poly Atmospheric Locations Pack/Models/Plants/bush plant.fbx using Guid(2278e8d44be66364289409037be9045d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '38eb67a3e292cea6cea46621b0189da7') in 0.0162746 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=517aa836430582c5f07c9fd3e54d9ea3 DependenciesID=26263d19fd7666b6234185eb11546b6a StaticDependenciesID=a303ff1dfcd6d87f2fbb129888285a24 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Palmov Island/Low Poly Atmospheric Locations Pack/Models/Stones/Desert stones/desert stone small 9.fbx
+  importAddress: Guid(7383a20ac88fafe41936503f79c587b8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Palmov Island/Low Poly Atmospheric Locations Pack/Models/Stones/Desert stones/desert stone small 9.fbx using Guid(7383a20ac88fafe41936503f79c587b8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'b52a8e9f3c1ba0f66389bff7477a84f1') in 0.0169022 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=aa6a18ae358c74c1d70e825e369f026e DependenciesID=c18e111dd8d08bdca200e149592353ec StaticDependenciesID=4d1c157fab56d5eba2b685c45601c241 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Palmov Island/Low Poly Atmospheric Locations Pack/Prefabs/Trees/Autumn fir trees/autumn pine tree medium.prefab
+  importAddress: Guid(43c91a3a4907878408bb6d040a3579ab) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Palmov Island/Low Poly Atmospheric Locations Pack/Prefabs/Trees/Autumn fir trees/autumn pine tree medium.prefab using Guid(43c91a3a4907878408bb6d040a3579ab) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '71fd86db9934c00791f19b333357d08f') in 0.0126509 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=820d3927b3e0330e86eddc9fa630db9e DependenciesID=2405f2e532f648c2c78b61bcf7a83aad StaticDependenciesID=23f93eaff6a7050dc58cf9ea90b52c6a 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Palmov Island/Low Poly Atmospheric Locations Pack/Prefabs/Plants/Mushrooms brown/mushroom brown 3.prefab
+  importAddress: Guid(51e6d31c5c3889242bb6e75d69ae1c6e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Palmov Island/Low Poly Atmospheric Locations Pack/Prefabs/Plants/Mushrooms brown/mushroom brown 3.prefab using Guid(51e6d31c5c3889242bb6e75d69ae1c6e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '8ccf8b09e007363a5c246731a9776ce2') in 0.0140094 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=60410c1451247feb503d43aa8d3db0fe DependenciesID=96c85553acb38636fcb1ba657da9ee4f StaticDependenciesID=f0561eb3b5fbb862a3c98d8404779b55 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Palmov Island/Low Poly Atmospheric Locations Pack/Prefabs/Houses/Wooden winter houses/wooden winter house 2.prefab
+  importAddress: Guid(b080d431fd04fbc469648da7f4beb944) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Palmov Island/Low Poly Atmospheric Locations Pack/Prefabs/Houses/Wooden winter houses/wooden winter house 2.prefab using Guid(b080d431fd04fbc469648da7f4beb944) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'd7d5ac8bd6348de5635343fbd852a947') in 0.0136924 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=9db2e63c26ed35e7fdd5437e2a7ba49a DependenciesID=db673d5b12b5aebd501d842c07e54e54 StaticDependenciesID=218a42cebd69c67aae39e91a76785bf6 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Palmov Island/Low Poly Atmospheric Locations Pack/Prefabs/Stones/Stones large gray blue
+  importAddress: Guid(2337df2eb3487de469cec0479726ac12) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Palmov Island/Low Poly Atmospheric Locations Pack/Prefabs/Stones/Stones large gray blue using Guid(2337df2eb3487de469cec0479726ac12) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '473280e28bef75507d418217f4158323') in 0.0097444 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=7c52b7c85b6e17c730af4c2544839f6a DependenciesID=69d94ac209d505bc2f83dd982223b102 StaticDependenciesID=3f0181ba966b0dd908aaa14e4aab9ae8 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Palmov Island/Low Poly Atmospheric Locations Pack/Prefabs/Trees/Fir trees winter/fir tree winter tilted.prefab
+  importAddress: Guid(7030b56548e773f47a3e8d65a2ba302c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Palmov Island/Low Poly Atmospheric Locations Pack/Prefabs/Trees/Fir trees winter/fir tree winter tilted.prefab using Guid(7030b56548e773f47a3e8d65a2ba302c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '1a0319d252055f68583de53402bc8f39') in 0.0153065 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=c9590c954f60d6c68aa99ee7ef9dd55e DependenciesID=48bba7a1b9dd59b7c8662ab09b55ca15 StaticDependenciesID=439d238c4dea9cbe118a8cbe47d9f453 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Palmov Island/Low Poly Atmospheric Locations Pack/Prefabs/Stones/Desert stones/desert stone small 2.prefab
+  importAddress: Guid(62f9047ab5fee2b45ba1a25520ef2ef7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Palmov Island/Low Poly Atmospheric Locations Pack/Prefabs/Stones/Desert stones/desert stone small 2.prefab using Guid(62f9047ab5fee2b45ba1a25520ef2ef7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'c2e8f96e2bce52185971177301348a09') in 0.0177363 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=b9ab6df969e4398c79a3921b9d8592c4 DependenciesID=af39903a0f33a5d870e3f59c0081299a StaticDependenciesID=fce9dadd848d524420a00a42fee70fbf 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Palmov Island/Low Poly Atmospheric Locations Pack/Prefabs/Environment/wooden bridge.prefab
+  importAddress: Guid(48db376ce4e9f214e90b9d3fcd2d26b2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Palmov Island/Low Poly Atmospheric Locations Pack/Prefabs/Environment/wooden bridge.prefab using Guid(48db376ce4e9f214e90b9d3fcd2d26b2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'f4f98bec6c2051219591c4acb72b9fec') in 0.0147644 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=1fd545b98052659449f1efeb10176737 DependenciesID=7fb65a0b9a1cca5b7eeebb3ba8aa8a49 StaticDependenciesID=f31bcaa5bb102c94d2d19dc7b4006b48 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Palmov Island/Low Poly Atmospheric Locations Pack/Models/Stones/Stones large/stone large 2.fbx
+  importAddress: Guid(a8d804e31f75c0f46a1dadb0e597bb75) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Palmov Island/Low Poly Atmospheric Locations Pack/Models/Stones/Stones large/stone large 2.fbx using Guid(a8d804e31f75c0f46a1dadb0e597bb75) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '5e5e2a71f398ee0503b84a0dac27c597') in 0.0174348 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=cc1499c1f7f8a4d218c342cff73766b7 DependenciesID=0eafe85da92c5c645b4e20ce826e0467 StaticDependenciesID=faaf863f319b9ab20d4c8abf9f17888c 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Palmov Island/Low Poly Atmospheric Locations Pack/Models/Stones/Stones small gray blue
+  importAddress: Guid(d124ecb9ddc4df04883f9d2f06f73694) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Palmov Island/Low Poly Atmospheric Locations Pack/Models/Stones/Stones small gray blue using Guid(d124ecb9ddc4df04883f9d2f06f73694) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '298585391e41d263faf1ea0abcf5dbe7') in 0.0102148 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=dd72ad36b00ea3939063bd0ecebbbb01 DependenciesID=09dcb6626aed37772d79b31a25c2d53d StaticDependenciesID=4b080f0d921c4a357fa572185f0f6b10 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Palmov Island/Low Poly Atmospheric Locations Pack/Prefabs/Environment/Winter environment
+  importAddress: Guid(318c4fd875ff0d640877f9e7d7aa09a7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Palmov Island/Low Poly Atmospheric Locations Pack/Prefabs/Environment/Winter environment using Guid(318c4fd875ff0d640877f9e7d7aa09a7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'e3e50043365e5bf667b7f59e77e053c7') in 0.0095406 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=71d7319b56e51006b9002261114067ff DependenciesID=f8e77fa28ba28ab3761d836b8dd53303 StaticDependenciesID=285868e3c8153a71df46d45802691bc6 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Palmov Island/Low Poly Atmospheric Locations Pack/Models/Houses/Buildings
+  importAddress: Guid(bab5dfef0dbfd7647819ccd101f5e873) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Palmov Island/Low Poly Atmospheric Locations Pack/Models/Houses/Buildings using Guid(bab5dfef0dbfd7647819ccd101f5e873) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'c0cb8f0e8f2997b5d35cfdb60dd895d2') in 0.0092514 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=ee0efb2dfca3e257950c9ef1c7b9483c DependenciesID=269e7cc39be0476aa4aec8af5dece9df StaticDependenciesID=951de39d92fe4184609945badc434b87 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Palmov Island/Low Poly Atmospheric Locations Pack/Prefabs/Environment/wooden post.prefab
+  importAddress: Guid(ff35c02ee3b177e4daaa7d99c86e7b28) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Palmov Island/Low Poly Atmospheric Locations Pack/Prefabs/Environment/wooden post.prefab using Guid(ff35c02ee3b177e4daaa7d99c86e7b28) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'f221f55a8c58959f2d666d84142345b9') in 0.0145075 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=e403b8067ab5c8d21b21cbd55c5a0bc3 DependenciesID=416350fa34f57bf2a45c2bfc94551269 StaticDependenciesID=0af99017205fdd883351157fb98014fc 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Palmov Island/Low Poly Atmospheric Locations Pack/Prefabs/Trees/Tree trunks/tree trunk 2.prefab
+  importAddress: Guid(b303ed3a31ee60f4db8544b5e5488885) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Palmov Island/Low Poly Atmospheric Locations Pack/Prefabs/Trees/Tree trunks/tree trunk 2.prefab using Guid(b303ed3a31ee60f4db8544b5e5488885) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '4b2da70cb16aae83876158c47f6582f4') in 0.0153539 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=baceb00c350d0a3e59dadec73b31ab4c DependenciesID=0307c50a9403a7cce03aa44e9102d81b StaticDependenciesID=987d5c5711dea41bbe8f2661498c10af 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Palmov Island/Low Poly Atmospheric Locations Pack/Models/Environment/Sports environment/soccer goal.fbx
+  importAddress: Guid(1b80dfbbb388ad54db128e6041e45217) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Palmov Island/Low Poly Atmospheric Locations Pack/Models/Environment/Sports environment/soccer goal.fbx using Guid(1b80dfbbb388ad54db128e6041e45217) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '33f9c81e3e4a2f48603d1232c386e797') in 0.0184035 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=368b9db5fdc9194bb35e5d4cc9d8d717 DependenciesID=637e97608c28e9c65208d23be128d0cf StaticDependenciesID=70bf9fa356600f2c6c00f31e9400e732 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Palmov Island/Low Poly Atmospheric Locations Pack/Models/Plants/plants yellow.fbx
+  importAddress: Guid(6cb2fb38544ddf042a8cca3d9d942839) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Palmov Island/Low Poly Atmospheric Locations Pack/Models/Plants/plants yellow.fbx using Guid(6cb2fb38544ddf042a8cca3d9d942839) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '6ef64c4f4e789649564a722ded1ef9fe') in 0.0174229 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=d7e83027a9e9b449a0583a3a40d5bca4 DependenciesID=41ff1cd30342c66bd9d4d7f01238bc59 StaticDependenciesID=687faad8e509c4899c63dddff550d03f 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Palmov Island/Low Poly Atmospheric Locations Pack/Prefabs/Plants/Cacti
+  importAddress: Guid(7382d836f004c40439c8292406eee668) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Palmov Island/Low Poly Atmospheric Locations Pack/Prefabs/Plants/Cacti using Guid(7382d836f004c40439c8292406eee668) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'a0fad021e9f2ecbf6b166ecac4a7582a') in 0.0093286 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=6f9667417bbf5094678e8faf2675635e DependenciesID=9747d2c75fabcc7dc8a6e0543c55a297 StaticDependenciesID=2b0a28d133409436daa408b6b79f2173 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Palmov Island/Low Poly Atmospheric Locations Pack/Prefabs/Trees/Autumn trees/autumn tree.prefab
+  importAddress: Guid(3258a18ee6f3e2b4d87f3f8894192741) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Palmov Island/Low Poly Atmospheric Locations Pack/Prefabs/Trees/Autumn trees/autumn tree.prefab using Guid(3258a18ee6f3e2b4d87f3f8894192741) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '568cdd49fb5db38dadc84de049efb8a3') in 0.01494 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=639c980eb1bdceb3510784feb350909d DependenciesID=0fb0b9ae0932589717650502dc0824c3 StaticDependenciesID=ce374f629dd37f8997c463ad21120924 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Palmov Island/Low Poly Atmospheric Locations Pack/Prefabs/Trees/Dry trees/dry tree 2.prefab
+  importAddress: Guid(8af5d5965bf2a284d815d364b857b925) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Palmov Island/Low Poly Atmospheric Locations Pack/Prefabs/Trees/Dry trees/dry tree 2.prefab using Guid(8af5d5965bf2a284d815d364b857b925) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '1b9d4ebbce61c5d72106d17bc2370185') in 0.0123274 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=a7d820480de7af5217495f850f4cf81d DependenciesID=c37e4695256a0e9fa6e54f4df06f6bbc StaticDependenciesID=0c13027f26b0c8cc24fa80424e066ac2 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Palmov Island/Low Poly Atmospheric Locations Pack/Prefabs/Environment/chest.prefab
+  importAddress: Guid(6871a7c0106106b4091b4851c2bed59c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Palmov Island/Low Poly Atmospheric Locations Pack/Prefabs/Environment/chest.prefab using Guid(6871a7c0106106b4091b4851c2bed59c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'bcc3f909b16f62cf5f1ba87a469071ad') in 0.01538 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=906134adc0263ee3dbbf1cf58b128f76 DependenciesID=b50815e15d43878bcf2e59248640a06c StaticDependenciesID=8688ce00f8b2dfa298ee083f476dbf44 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Palmov Island/Low Poly Atmospheric Locations Pack/Models/Environment/lamppost.fbx
+  importAddress: Guid(8a8f2e2fc2fe32c4eb8fa3eac7773e99) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Palmov Island/Low Poly Atmospheric Locations Pack/Models/Environment/lamppost.fbx using Guid(8a8f2e2fc2fe32c4eb8fa3eac7773e99) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'c37bf02f960b86a145a304430103a277') in 0.0162306 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=568007ea398d3744e21dc3c932b536f2 DependenciesID=0a832fde173535f4f73e21bc08c52e10 StaticDependenciesID=49e9b38de332c9c1ee269f6bd1e22f4c 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Palmov Island/Low Poly Atmospheric Locations Pack/Models/Environment/Barrels/barrel 2.fbx
+  importAddress: Guid(96452b2d90ac00f49a1bcf2bdcc9fa9d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Palmov Island/Low Poly Atmospheric Locations Pack/Models/Environment/Barrels/barrel 2.fbx using Guid(96452b2d90ac00f49a1bcf2bdcc9fa9d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '8f4248ed75e3685fec8a164d5fa83897') in 0.0175933 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=aa3a701aa86c34cd1e27b891b6c06dc2 DependenciesID=f2364efd092a04663846419b0b98c719 StaticDependenciesID=c4296382a1cffb5bb8e4c76da2987cbf 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Palmov Island/Low Poly Atmospheric Locations Pack/Prefabs/Vehicles/japanese boat.prefab
+  importAddress: Guid(e4836be59ccc04a4cbd1f7b42387a24a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Palmov Island/Low Poly Atmospheric Locations Pack/Prefabs/Vehicles/japanese boat.prefab using Guid(e4836be59ccc04a4cbd1f7b42387a24a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'a61226ee57401b9f29bdc87a852e8e94') in 0.0143756 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=78f3b0683ba98eaf89c4d07039716090 DependenciesID=ec4f62f44229971ab17416cf233ed2a2 StaticDependenciesID=70ee6afcd534bdc5ed98b797466cc2ee 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Palmov Island/Low Poly Atmospheric Locations Pack/Models/Environment/Winter environment/Christmas balls/ball red.fbx
+  importAddress: Guid(674e042fb7884d743bc879a34e00a44a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Palmov Island/Low Poly Atmospheric Locations Pack/Models/Environment/Winter environment/Christmas balls/ball red.fbx using Guid(674e042fb7884d743bc879a34e00a44a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'a9d7b4a029f941d93b9c29eb2f656a3b') in 0.0189402 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=beaaa2f3b4560b04a7491d73d1628710 DependenciesID=6c5bc76ef2a6ca1ca57e145a10d2246e StaticDependenciesID=a7831ce508e00988772689a01903f048 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Palmov Island/Low Poly Atmospheric Locations Pack/Models/Plants/Cacti/cactus 4.fbx
+  importAddress: Guid(f1da13dea635a8d4f9a90c690eedb229) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Palmov Island/Low Poly Atmospheric Locations Pack/Models/Plants/Cacti/cactus 4.fbx using Guid(f1da13dea635a8d4f9a90c690eedb229) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '23ccca0d4a924a0e5f18ef5317b48af3') in 0.0179394 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=0e86dd1572590bedc6b8337c36a17f00 DependenciesID=52b4f070c16f6b2f9ebe85570b2eaf84 StaticDependenciesID=8950351824b48a676b56eb4e0e264b37 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Palmov Island/Low Poly Atmospheric Locations Pack/Prefabs/Waters/water location autumn atmosphere forest.prefab
+  importAddress: Guid(d05d5c68af6efab46832adecd5bd0a01) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Palmov Island/Low Poly Atmospheric Locations Pack/Prefabs/Waters/water location autumn atmosphere forest.prefab using Guid(d05d5c68af6efab46832adecd5bd0a01) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '608b3001b503664106fd88230c847dc2') in 0.0195676 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=86796c20120ee5cb230a9d0aa7c44dae DependenciesID=f958256d2cc3d9af65c40037ef09b5d8 StaticDependenciesID=a583e15210372376612cb5fe5037997b 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Palmov Island/Low Poly Atmospheric Locations Pack/Prefabs/Stones/Stones small/stone small 6.prefab
+  importAddress: Guid(dc5912af60153cf42ab6674ab6f8c028) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Palmov Island/Low Poly Atmospheric Locations Pack/Prefabs/Stones/Stones small/stone small 6.prefab using Guid(dc5912af60153cf42ab6674ab6f8c028) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '9ce10c8020f49a4313ba53ea8e2351c9') in 0.0153275 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=95c3bd8cf746b431ddc199155be8ec89 DependenciesID=c89da800e7db5bb942bd1b39a2b0181f StaticDependenciesID=0a262938531cdc51e3bad18e9f38c9cf 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Palmov Island/Low Poly Atmospheric Locations Pack/Prefabs/Environment/Pyramids
+  importAddress: Guid(cbe1356177fd14b48a28ceec3c36fa78) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Palmov Island/Low Poly Atmospheric Locations Pack/Prefabs/Environment/Pyramids using Guid(cbe1356177fd14b48a28ceec3c36fa78) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '0bef99b2aea710af3c2d6f1b36a95c6b') in 0.0088075 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=6a1cc308ed0abdd5bfc07d11e8174fd2 DependenciesID=672dde48212e87c46f836bcd0632694a StaticDependenciesID=a4eaf6d4ca59fc02c7ac017518abeac9 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Palmov Island/Low Poly Atmospheric Locations Pack/Models/Environment/Benchs/bench 2.fbx
+  importAddress: Guid(aceeda692ba2bce44b97420eb887aea4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Palmov Island/Low Poly Atmospheric Locations Pack/Models/Environment/Benchs/bench 2.fbx using Guid(aceeda692ba2bce44b97420eb887aea4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '826637eaeb54aabaf2f5b538c37c6f67') in 0.0183405 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=9488d6ad8cbfd5bc380f4129442b6519 DependenciesID=0dadfd4144b084b1617b5e63b4c08035 StaticDependenciesID=44fe63a3de7b90c9a4eb55e15b518c30 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Palmov Island/Low Poly Atmospheric Locations Pack/Prefabs/Environment/Winter environment/snowman.prefab
+  importAddress: Guid(33e0229781589094db520ae4fecfde0f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Palmov Island/Low Poly Atmospheric Locations Pack/Prefabs/Environment/Winter environment/snowman.prefab using Guid(33e0229781589094db520ae4fecfde0f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '948f0118c688a31502803abff9a961e7') in 0.0162766 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=42da748117b7f59d5e5e4a3f42f94148 DependenciesID=1bd647d2abe74608fb64e985b268d684 StaticDependenciesID=1c9eaf0d934eb2e0e2bd551c9a389b8d 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Palmov Island/Low Poly Atmospheric Locations Pack/Prefabs/Environment/Camping environment/cauldron.prefab
+  importAddress: Guid(397375520e9007942aeda52803b53801) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Palmov Island/Low Poly Atmospheric Locations Pack/Prefabs/Environment/Camping environment/cauldron.prefab using Guid(397375520e9007942aeda52803b53801) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '74838c5eda6eb0e6dc09a1a0374ea4c7') in 0.0143587 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=35ca8ffee9caeaf57b5c61449703ce3e DependenciesID=c13898dc571f8d116317ce3659a5b545 StaticDependenciesID=3b35aaab681a9b93dab4bb88468858c6 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Palmov Island/Low Poly Atmospheric Locations Pack/Models/Stones
+  importAddress: Guid(864d45aa1b6811d42914cd07f03a2185) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Palmov Island/Low Poly Atmospheric Locations Pack/Models/Stones using Guid(864d45aa1b6811d42914cd07f03a2185) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '089198939ed8bd6b4dc3dc03226cd7de') in 0.0099333 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=180ab4fc8a5406420914d1e33bf638ac DependenciesID=c1f66bcf37fb0d665987e1d264fd86ec StaticDependenciesID=398fa543960068a187714371a6b6541b 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Palmov Island/Low Poly Atmospheric Locations Pack/Prefabs/Stones/Desert stones/desert stone small 8.prefab
+  importAddress: Guid(dd8d044b78c20f04b84b8a469fc91528) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Palmov Island/Low Poly Atmospheric Locations Pack/Prefabs/Stones/Desert stones/desert stone small 8.prefab using Guid(dd8d044b78c20f04b84b8a469fc91528) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '01fb3d1e58183b2b23e4e774465fd626') in 0.0160324 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=b088cb4f347c8fe2cba31276e8c21b4c DependenciesID=1709c7ce59b113de927e45877923cc1f StaticDependenciesID=53cb1dc720e685b598168133e2ccbf7c 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Palmov Island/Low Poly Atmospheric Locations Pack/Models/Environment/solid rocket booster.fbx
+  importAddress: Guid(63d729359e1878a4da5b9e990b8567db) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Palmov Island/Low Poly Atmospheric Locations Pack/Models/Environment/solid rocket booster.fbx using Guid(63d729359e1878a4da5b9e990b8567db) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'ae66f22f6766db50def4c2234ae2f933') in 0.0179486 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=4385a1f5123ada6ab48a21e60f7ee1cd DependenciesID=27880ee66a44170954cc28120050bd7a StaticDependenciesID=7f8327870f04d1be92690e962dcbe822 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Palmov Island/Low Poly Atmospheric Locations Pack/Models/Trees/Autumn trees/autumn tree 3.fbx
+  importAddress: Guid(d4009576a3bf19841a5522e532e0a87c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Palmov Island/Low Poly Atmospheric Locations Pack/Models/Trees/Autumn trees/autumn tree 3.fbx using Guid(d4009576a3bf19841a5522e532e0a87c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '4d6865f6d1c6df99e7fe8f561ec13324') in 0.0161793 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=cb6cbac7b49709d95e988b5acf81f224 DependenciesID=0339306e6771528d4fcd5e8448d6ab35 StaticDependenciesID=7fc188b916e64099e88d3803e6aac1c5 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Palmov Island/Low Poly Atmospheric Locations Pack/Prefabs/Environment/fire.prefab
+  importAddress: Guid(d0e0ef15d4d3e6c4784e9fa43d0ac39f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Palmov Island/Low Poly Atmospheric Locations Pack/Prefabs/Environment/fire.prefab using Guid(d0e0ef15d4d3e6c4784e9fa43d0ac39f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '1091cfb756c905bd533b0c545b9442d2') in 0.0154012 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=e3a7cf963f23904643310192f888592d DependenciesID=94128cde423422503f3fa6e952059133 StaticDependenciesID=f246ce3e5dfbf63516c40eee8efd799f 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Palmov Island/Low Poly Atmospheric Locations Pack/Prefabs/Environment/Winter environment/Christmas balls/ball red.prefab
+  importAddress: Guid(f87ca7d4a36dc9f488ced2f03f6e46b5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Palmov Island/Low Poly Atmospheric Locations Pack/Prefabs/Environment/Winter environment/Christmas balls/ball red.prefab using Guid(f87ca7d4a36dc9f488ced2f03f6e46b5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'a4421499a1c631230498b33368606462') in 0.0143584 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=ac0add56b14b02cbb099dece9bbfb657 DependenciesID=0b92507cb9a18bcdf2235f02e448848a StaticDependenciesID=a1a6742966c6ae4ce2bff67e3979b300 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Palmov Island/Low Poly Atmospheric Locations Pack/Models/Trees/Dry trees/dry tree 2.fbx
+  importAddress: Guid(59cd0deba0f5223419451fbef56ecc95) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Palmov Island/Low Poly Atmospheric Locations Pack/Models/Trees/Dry trees/dry tree 2.fbx using Guid(59cd0deba0f5223419451fbef56ecc95) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'c7013fea3a93f661ce348b4f1acf11b1') in 0.0183197 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=f5d3b6cee36feafa2d4938058299b911 DependenciesID=7b32c57dc8f2d3b7108b637402931441 StaticDependenciesID=21766ff70e5b6201f553907f1b028539 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Palmov Island/Low Poly Atmospheric Locations Pack/Models/Stones/Stones winter small/stone winter small 6.fbx
+  importAddress: Guid(66f75c6ac73f0b347b860ebd616185bd) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Palmov Island/Low Poly Atmospheric Locations Pack/Models/Stones/Stones winter small/stone winter small 6.fbx using Guid(66f75c6ac73f0b347b860ebd616185bd) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '7ef6e6d4fc9e6b78a5a49612ddde6f6c') in 0.0197177 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=237a06f022a622b48e5b1d7a9a24af4e DependenciesID=3b2e3d4a913ad5f0a32e72eb8dc3e0d1 StaticDependenciesID=b5005868595d24ed3d0898ec4d36af74 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Palmov Island/Low Poly Atmospheric Locations Pack/Prefabs/Lands/land autumn atmosphere forest.prefab
+  importAddress: Guid(ddf217cc27112bb4983b30acb01fc43a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Palmov Island/Low Poly Atmospheric Locations Pack/Prefabs/Lands/land autumn atmosphere forest.prefab using Guid(ddf217cc27112bb4983b30acb01fc43a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '9cfad155009330cb99da30d85817f805') in 0.0126521 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=f3f9fb2ccf1130ef105ea4959c01b642 DependenciesID=9ac40527259449930094097b1464cefb StaticDependenciesID=5860f522404b7e39aafc38aaaa758666 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Palmov Island/Low Poly Atmospheric Locations Pack/Prefabs/Trees/Autumn trees/autumn tree 3.prefab
+  importAddress: Guid(4a8365cf1ca1e6740af25f627597c43e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Palmov Island/Low Poly Atmospheric Locations Pack/Prefabs/Trees/Autumn trees/autumn tree 3.prefab using Guid(4a8365cf1ca1e6740af25f627597c43e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'b0cf34f3b8a7cc424bbd81e2bb2a9b2b') in 0.0169781 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=c238f9d5b45b60b7db42e853f202e71b DependenciesID=d59994420c35c78435f5366f9d50c39f StaticDependenciesID=fa2753ec9434d9ed3932bc7882ab5f05 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Palmov Island/Low Poly Atmospheric Locations Pack/Models/Environment/Winter environment/Garlands/garland 2.fbx
+  importAddress: Guid(c0eee959b54faa74c8b9bea1d4c50285) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Palmov Island/Low Poly Atmospheric Locations Pack/Models/Environment/Winter environment/Garlands/garland 2.fbx using Guid(c0eee959b54faa74c8b9bea1d4c50285) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'c243e33339f803bb9d0c18ee8e900856') in 0.0193033 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=097439705b1260dc109abda02c57c627 DependenciesID=e6f23b007bffa4b6d5273cbaebb68901 StaticDependenciesID=f53ac52ef75c49fe1162e67bd648668c 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Palmov Island/Low Poly Atmospheric Locations Pack/Prefabs/Animals
+  importAddress: Guid(3b61a05aa117a3540aa952dec9b2e8f8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Palmov Island/Low Poly Atmospheric Locations Pack/Prefabs/Animals using Guid(3b61a05aa117a3540aa952dec9b2e8f8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '65f8686f623199d96b50036da7eb9e19') in 0.0098154 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=c697ec01b3f5773228f62b7dad135082 DependenciesID=e293d900965f86524ef570aa2f0ec702 StaticDependenciesID=c1affd9c5c3c5f714ca37df8d012ea8a 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
